@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
+	/*3) Escreva um programa que leia o valor do lado de um quadrado e calcule a sua área e o 
+	seu perímetro.*/
+
  int main(void){
 	float lado;
 	printf("Informe um lado do quadrado:");
