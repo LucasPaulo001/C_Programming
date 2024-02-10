@@ -20,7 +20,7 @@
 	printf("Informe o peso:");
 	scanf("%f", &p3);
     soma_mult_media = (n1*p1)+(n2*p2)+(n3*p3); //Somando as multiplicações entre os números e seus respectivos pesos
-    div_media = soma_mult_media/(p1+p2+p3);//Dividindo o resultado obtido anteriormente e o dividindo com a soma dos pesos
+    div_media = soma_mult_media/(p1+p2+p3);//Dividindo o resultado obtido anteriormente com a soma dos pesos
     media_ponderada = div_media;//Atrobuindo o resultado anterior para a variável "media_ponderada " Obs: essa parte não é obrigatória, poderia apenas imprimir o próprio resultado da "div_media" 
     printf("Media ponderada: %.2f ", media_ponderada);
 
