@@ -1,5 +1,5 @@
 #include <stdio.h>
-const int quantidade_pessoas = 2;
+const int quantidade_pessoas = 20;
     
     /*115) Escreva um programa que leia o peso e a altura de um grupo de 20 pessoas e calcule o percentual de pessoas abaixo do peso, o percentual de pessoas acima do peso e o percentual de pessoas que estão dentro da faixa de peso adequada.*/
 
