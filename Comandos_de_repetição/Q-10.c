@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-    /*Escreva um programa que leia dois números inteiros M e N e calcule a média 
+    /*107) Escreva um programa que leia dois números inteiros M e N e calcule a média 
     aritmética dos números primos do intervalo [M, N].*/
 
 void main(){
