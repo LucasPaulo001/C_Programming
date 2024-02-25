@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Users/lp152/Documents/C_Programming/Vetores",
-      "program": "d:/Users/lp152/Documents/C_Programming/Vetores/build/Debug/outDebug",
+      "cwd": "d:/Users/lp152/Documents/C_Programming/Exercícios_Comandos_de_entrada_e_saída",
+      "program": "d:/Users/lp152/Documents/C_Programming/Exercícios_Comandos_de_entrada_e_saída/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
