@@ -7,7 +7,7 @@ void main(){
     int n, cont=0, impar=0;
     printf("Informe um numero inteiro: ");
     scanf("%d", &n);
-    while(n>0){
+    while(n>0){//4
        if(impar%2!=0){
         printf("%d ", impar);
         n--;
