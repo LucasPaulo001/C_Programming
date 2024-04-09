@@ -6,17 +6,17 @@ quantidade possível de números inteiros positivos de forma que a soma de todos
 números impressos seja menor ou igual a N.*/
 
 void main(){
-    int n, soma=0, k, num=0;
+    int n, soma=0, k, num=0, cont=0;
     printf("Informe um numero inteiro: ");
-    scanf("%d", &n);//5
-    while(num<n){
-        for(k=1; k<=n/*5*/; k++){
-            soma = soma + k;//1, 3
+    scanf("%d", &n);//6
+    while(n>1){//num = 3
+        for(k=1; k<=n/*6*/; k++){
+            soma = soma + k;//1, 3, 6
             if(soma <= n){
-                printf("%d ", soma);//1, 3
+                cont++;
+                printf("%d ", cont);//1, 2, 3  
             }
             n--;
         }
-        num++;
     }
 }

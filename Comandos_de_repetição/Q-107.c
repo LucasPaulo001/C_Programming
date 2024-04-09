@@ -17,10 +17,10 @@ void main(){
         if(primo==2){
             soma = soma + k;
             cont++;
-            printf("%d ", k);
         }
-        media = soma/cont;
+        
     }
+    media = soma/cont;
     printf("\nMedia aritmetica dos numeros primos = %d", media);
     
 }
