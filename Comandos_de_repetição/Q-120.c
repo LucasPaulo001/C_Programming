@@ -1,22 +1,24 @@
 #include <stdio.h>
 #include <conio.h>
 
-/*120. Escreva um programa que leia um número inteiro positivo N e imprima a maior 
+/*120) Escreva um programa que leia um número inteiro positivo N e imprima a maior 
 quantidade possível de números inteiros positivos de forma que a soma de todos os 
-números impressos seja menor ou igual a N.*/
+números impressos seja menor ou igual a N.
+*/
 
 void main(){
-    int n, soma=0, k, num=0, cont=0;
-    printf("Informe um numero inteiro: ");
-    scanf("%d", &n);//6
-    while(n>1){//num = 3
-        for(k=1; k<=n/*6*/; k++){
-            soma = soma + k;//1, 3, 6
-            if(soma <= n){
-                cont++;
-                printf("%d ", cont);//1, 2, 3  
-            }
-            n--;
-        }
-    }
+	int n, k=1, soma=0, soma_k=0;
+	printf("Informe um numero inteiro positivo: ");
+	scanf("%d", &n);
+	while(k<=n){
+		soma=soma+k;//imprime a soma dos números
+		if(soma<=n){//condição para ir somando os números até seu resultado chegar a n
+			printf("%d ", k);
+			soma_k=soma_k+k;
+		}
+		k++;
+	}
+	printf("\nSoma dos numeros = %d ", soma_k);
+	
+	getch();
 }
