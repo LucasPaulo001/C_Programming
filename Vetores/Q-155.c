@@ -15,7 +15,7 @@ void main(){
     scanf("%d", &num);
     for(k=0; k<quantidade; k++){
         if(vetor[k]==num){
-            printf("%d", vetor[num]);
+            printf("%d", vetor[num-1]);
         }
     }
     getch();

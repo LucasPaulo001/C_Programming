@@ -8,8 +8,8 @@ maiores que N.*/
 
 void main(){
     int vetor[quantidade], k, num;
-    printf("Informe dez numeros inteiros: \n");
     for(k=0; k<quantidade; k++){
+        printf("Informe dez numeros inteiros: ");
         scanf("%d", &vetor[k]);
     }
     printf("Informe um numero inteiro: ");
