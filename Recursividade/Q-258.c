@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-/*258. Escreva um subprograma recursivo que receba como entrada um valor em decimal e 
-imprima o seu valor correspondente em binário.
+/*258. Escreva um subprograma recursivo que receba como entrada um valor em decimal e imprima o seu valor correspondente em binário.
 */
 
 void bin(int n){
