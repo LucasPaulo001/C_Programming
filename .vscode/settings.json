@@ -57,6 +57,8 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "Q-40.C": "cpp"
-  }
+    "Q-40.C": "cpp",
+    "conio.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }

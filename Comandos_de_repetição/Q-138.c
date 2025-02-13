@@ -5,19 +5,14 @@
 */
 
 void main(){
-    int num, aux, resto, soma=0;
-    printf("Informe um numero: ");
-    scanf("%d", &num);//15,6 => 6  1,5 => 5  0,1 => 1
-    aux = num;
-    resto = aux;
-    while(aux>0){
-        aux=aux/10;
-        resto=resto%10;
-        soma=soma+resto;
-        printf("%d ", resto);
+    int n, soma=0;
+    printf("Informe um numero inteiro: ");
+    scanf("%d", &n);
+    while(n>0){
+        soma = soma + n%10;
+        n/=10;
     }
-    //printf("Soma dos algarismos: %d", soma);
-    
-    
-    
+    printf("%d", soma);
+
+    getch();
 }
